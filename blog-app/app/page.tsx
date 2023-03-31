@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from './page.module.css'
 import Link from 'next/link';
@@ -9,7 +8,12 @@ export default function Home() {
   return (
     <main>
       <h1>Homepage</h1>
-      <Link href='/about'>Go to About page</Link>
+      <p>
+      <Link href='/about'>Go to About page</Link> 
+      </p>
+      <p>
+      <Link href='/users'>Users</Link> 
+      </p>
     </main>
   )
 }

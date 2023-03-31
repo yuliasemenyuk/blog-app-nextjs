@@ -1,6 +1,10 @@
-import './globals.css'
+import './globals.css';
+import type { Metadata } from 'next';
+import { Inter } from 'next/font/google'
 
-export const metadata = {
+const inter = Inter({ subsets: ['latin'] })
+
+export const metadata: Metadata = {
   title: 'Blog',
   description: 'blog app',
 }
@@ -13,7 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
+      <body className={inter.className}>
         <nav>
           <h1>Navbar</h1>
         </nav>
