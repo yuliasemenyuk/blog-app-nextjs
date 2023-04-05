@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Blog',
-  description: 'blog app',
+  description: 'Created with next.js',
 }
 
 
